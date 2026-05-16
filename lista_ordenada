@@ -1,0 +1,9 @@
+desarrollador1:x:1002:1002:desarrollador 1:/home/desarrollador1:/bin/bash
+desarrollador2:x:1003:1003:desarrollador 2:/home/desarrollador2:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
