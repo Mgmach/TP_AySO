@@ -1,0 +1,381 @@
+pwd
+1s
+ls
+-help
+-l
+ls -l
+man ls
+ls -l -a
+cat sudoers
+ls -l
+ls -la
+vagrant halt
+app install vagrant
+cat README
+cat << LOL
+linea 1
+linea 2 
+linea 3
+LOL
+
+cat << FIN > clase3.txt
+hola
+como estas
+mal
+fin
+FIN
+
+ls
+cat clase3.txt
+cat << FIN > clase3.txt
+linea 5
+linea 6
+linea 7
+FIN
+
+cat clase3.txt
+cat << FIN >> clase3.txt
+como estas
+muy mal
+cada vez peor
+FIN
+
+cat clase3.txt 
+bc <<< 9*2
+cat clase3.txt | wc
+man tac
+tail clase3.txt 
+tail -n1 clase3.txt 
+tail -n3 clase3.txt 
+cat clase3.txt |head -n1| grep 5
+cat clase3.txt |head -n3| grep 7
+cat clase3.txt |head -n3| grep linea
+cat clase3.txt |head -n3| grep "linea 5"
+cd/
+cd /
+ls
+cd proc/
+ls
+cat cpuinfo 
+grep -i core
+cd /
+ls
+cd proc/
+ls
+cat cpuinfo 
+grep -i mode cpuinfo 
+sudo
+sudo usseradd -m -c "Matias Mach" mati
+ls /home/
+-help
+dhelp
+help
+sudo
+sudo useradd
+sudo useradd -m -s 
+sudo useradd -m -s /bin/bash -c "desarrollador 1"
+sudo useradd -m -s /bin/bash -c "desarrollador 1" desarrollador1
+sudo useradd -m -s /bin/bash -c "desarrollador 2" desarrollador2
+cat/etc/group
+ls -l
+cd prueba/
+cat << Prueba > folder
+cat << Prueba > folder
+hola
+holis.txt
+folder
+END
+Prueba
+
+ls -l
+cd folder/
+cd ..
+ls -l
+cat << Fin > prueba.sh
+echo "hola"
+ls -l
+Fin
+
+cd vagrant/
+cat << Fin > prueba.sh
+echo "hola"
+ls -l
+Fin
+
+sudo chmod 777 prueba.sh
+ls -l
+./prueba.sh
+prueba.sh
+vim prueba.sh
+prueba.sh
+./prueba.sh
+vim prueba.sh
+./prueba.sh "jola prueba" prueba 9
+sudo apt update
+git clone https://github.com/upszot/UTN-FRA_SO_Bash
+ls -l
+cd UTN-FRA_SO_Bash/
+ls -l
+#!/bin/bash
+ssh-keygen
+cd/
+pwd
+cd
+pwd
+cd
+pwd
+cd
+ls -l
+ls -la
+cd .ssh
+ls -la
+cat id_rsa.pub 
+cd
+git status
+sudo apt install git
+git --version
+git upgrade
+git update
+git --help
+q
+ssh-keygen
+y
+ssh-keygen
+cd
+mkdir repogit
+cd repogit/
+git clone git@github.com:Mgmach/TP_AySO.git
+cd TP_AySO/
+ls -l
+cd
+git status
+cd TP_AySO/
+cd repogit/
+git status
+cd TP_AySO/
+git status
+cd
+cat /etc/passwd
+grep --help
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+cat << Fin > datos_usuario.txt
+Fin
+
+whoami
+grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow
+sudo grep vagrant /etc/shadow | awk -F ':'
+sudo grep vagrant /etc/shadow | awk -F ':' {print}
+sudo grep vagrant /etc/shadow | awk -F ':' {print $2}
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+cat << Fin > datos_usuario.txt 
+$y$j9T$nC6Mm9LNzQjPCMczk8eTs1$T6fbh1SvPQqpYi2MESxHYtxYCP7kHIa/U8dx1tZ2bE8
+Fin
+
+whoami
+vim datos_usuario.txt 
+cat datos_usuario.txt 
+vim datos_usuario.txt 
+cat << Fin > datos_usuario.txt 
+$y$j9T$nC6Mm9LNzQjPCMczk8eTs1$T6fbh1SvPQqpYi2MESxHYtxYCP7kHIa/U8dx1tZ2bE8
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+Fin
+
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+cat datos_usuario.txt 
+cat << Fin > datos_usuario.txt 
+$y$j9T$nC6Mm9LNzQjPCMczk8eTs1$T6fbh1SvPQqpYi2MESxHYtxYCP7kHIa/U8dx1tZ2bE8
+Fin
+
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add .
+git add datos_usuario.txt 
+ls -la
+cd repogit
+cat << Fin > datos_usuario.txt
+$y$j9T$nC6Mm9LNzQjPCMczk8eTs1$T6fbh1SvPQqpYi2MESxHYtxYCP7kHIa/U8dx1tZ2bE
+Fin
+
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add .
+git add datos_usuario.txt 
+ls -l
+cd TP_AySO/
+cat << fin > datos_usuario.txt
+$y$j9T$nC6Mm9LNzQjPCMczk8eTs1$T6fbh1SvPQqpYi2MESxHYtxYCP7kHIa/U8dx1tZ2bE
+fin
+
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add .
+git config --global user.mail "matimach2008@gmail.com
+matimach2008@gmail.com
+
+fin
+git add.
+git congig -- global user.name "Mgmach"
+cat/etc/passwd
+cat /etc/passwd
+man grep
+greb UBUNTU /etc/passwd
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+cd repogit/TP_AySO/
+cat << fin > datos_usuario.txt 
+fin
+
+grep vagrant /etc/passwd | awk -F ':' '{print $2}'
+grep vagrant /etc/passwd | awk -F ':' '{print}'
+grep vagrant /etc/shadow | awk -F ':' '{print}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+cat << fin > datos_usuario.txt 
+$y$j9T$nC6Mm9LNzQjPCMczk8eTs1$T6fbh1SvPQqpYi2MESxHYtxYCP7kHIa/U8dx1tZ2bE8
+fin
+
+whoami
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add.
+git add .
+git config user.email matimach2008@gmail.com
+git congig user.name Mgmach
+git config user.name Mgmach
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+cat << fin >> info_pc.txt"
+fin
+fin
+fin 
+ls 
+ls -a
+ls -l
+tac texto.txt | tail
+tac clase3.txt | tail
+man grep
+[200~
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passw
+grep ubuntu /etc/passwd
+grep -1 Ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+cd
+ls -l
+cd repogit/
+cat /etc/passwd
+man grep
+grep UBUNRU /etc/passwd
+grep ubuntu /etc/passwd
+man grp
+man grep
+grep -i Ubuntu /etc/passwd
+sudo grep vagrant /etc/passwd | awk -F ':' '{print $2}' > datos_usuario.txt
+cat datos_usuario.txt 
+sudo cat datos_usuario.txt 
+sudo grep vagrant /etc/passwd | awk -F ':' '{print $2}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}'
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}' > datos_usuario.txt
+cat datos_usuario.txt 
+echo “Usuario=$(whoami)” >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add
+git add .
+git clone https://github.com/Mgmach/TP_AySO.git
+ls -l
+cd TP_AySO/
+cat /etc/passwd
+man grep
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+sudo grep vagrant /etc/shadow | awk -F ':' '{print $2}' > datos_usuario.txt
+whoami
+echo “Usuario=$(whoami)” >> datos_usuario.txt 
+git add .
+git config --global user.email "matimach2008@gmail.com"
+git config --global user.name "Mgmach"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+git status
+cat /proc/cpuinfo
+grep "model name" /proc/cpuinfo | head -n1 >> info_pc.txt
+cat info_pc.txt 
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+git push
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+cat << fin >> README.md 
+Alumno: Matias Agustin Mach
+Division: Div. 115
+Turno: Mañana
+fin
+
+cat README.md 
+git add .
+git commit -m "docs: Agregando mi informacion personal"}
+git commit -m "docs: Agregando mi informacion personal"
+git push
+mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}
+ls ~/TP1/arquitectura
+ls ~/TP1/so
+echo 'mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}' > script_d
+echo 'mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}' > script_dir.sh
+cat script_dir.sh 
+echo "$(mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}) > script_dir.sh
+das
+mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}
+
+
+
+
+
+
+
+
+
+
+[200~$(mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6})~
+script_dir.sh
+
+history -a
+echo "$(mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6})" > script_dir.sh
+cat script_dir.sh 
+sudo snap install tree
+echo "$(mkdir -p ~/TP1/arquitectura/{Clase1,Clase2,Clase3,Clase4,Clase5} ~/TP1/so/{Clase1,Clase2,Clase3,Clase4,Clase5,Clase6}) > script_dir.s
+tdididddddddddasdas treee
+
+
+cd repogit/TP_AySO/
+mkdir - p Tp1/{arquitectura/Clase{1..5}},so/Clase{1..6}
+mkdir -p Tp1/{arquitectura/Clase{1..5}},so/Clase{1..6}
+tree Tp1/
+mkdir -p Tp1/arquitectura/Clase{1..5},so/Clase{1..6}
+tree Tp1/
+rm Tp1/
+rm -r Tp1/
+mkdir -p Tp1/{arquitectura/Clase{1..5},so/Clase{1..6}}
+tree Tp1/
+echo 'mkdir -p Tp1/{arquitectura/Clase{1..5},so/Clase{1..6}}' > script_dir.sh
+cat script_dir.sh
+./script_dir.sh
+chmod +x script_dir.sh
+./script_dir.sh
+echo "mkdir -p Tp1/{arquitectura/Clase{1..5},so/Clase{1..6}}" > script_dir.sh
+./script_dir.sh
+cat Tp1/
+tree Tp1/
+git add .
+git commit -m "ADD: Añadiendo script"
+history -a
+cp ~/.bash_history ./Historial_comandos_ApellidoNombre.txt
+cat Historial_comandos_ApellidoNombre.txt 
+mv Historial_comandos_ApellidoNombre.txt Historial_comandos_MatiasMach.txt 
